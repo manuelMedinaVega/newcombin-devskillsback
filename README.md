@@ -6,5 +6,7 @@
 6. ejecutar: php artisan migrate
 7. ejecutar: php artisan serve
 8. probar los distintos request usando postman o similar:
-9. post: create-tax, pay-tax
-10. get: list-pending-taxes/{service_type?}, list-transactions/{init_date}/{end_date}
+9. post -> http://127.0.0.1:8000/api/create-tax
+10. post -> http://127.0.0.1:8000/api/pay-tax
+11. get -> http://127.0.0.1:8000/api/list-pending-taxes/{service_type?}
+12. get -> http://127.0.0.1:8000/api/list-transactions/{init_date}/{end_date}
